@@ -1,0 +1,80 @@
+@font-face {
+	font-family: 'Alegreya';
+	src: url('alegreya-light.ttf');
+}
+
+body {
+	text-align: center;
+	font-family: 'Alegreya';
+}
+
+hr {
+	border-color: black;
+	margin: 0 0 10px 0;
+}
+
+h1 {
+	font-size: 48px;
+	line-height: 36px;
+}
+
+#main {
+	display: table;
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	position: absolute;
+}
+
+#container {
+	display: table-cell;
+	vertical-align: middle;
+	background-color: #cceeff;
+}
+
+#center {
+	max-width: 640px;
+	margin: auto;
+}
+
+#header {
+	font-size: 72px;
+}
+
+#body {
+	overflow: hidden;
+	max-height: 200px;
+}
+
+a, a:visited, a:active, a:link {
+	color: #aaa;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+a:hover {
+	color: #ccc;
+	text-decoration: none;
+}
+
+.btn-default {
+	line-height: 48px;
+	font-size: 20px;
+	min-width: 240px;
+	margin: 16px 0 16px 0;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+/*game elements*/
+#teams {
+	width: 50%;
+	float: left;
+	height: 480px;
+}
+
+#game {
+	width: 50%;
+	float: right;
+	text-align: center;
+	height: 480px;
+}

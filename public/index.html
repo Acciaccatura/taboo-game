@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Taboo!</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="res/layout.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="/socket.io/socket.io.js"></script>
+<script src="res/ui.js"></script>
+<script src="res/interface.js"></script>
+
+</head>
+<body onload="load()">
+<main id="main">
+	<div id="container">
+		<div id="center">
+			<div id="header">Taboo :)</div>
+			<div id="body">
+				<button type="button" class="btn btn-default">Single Player</button>
+				<br>
+				<button type="button" class="btn btn-default" onclick="clicked(multiplayer_screen)">Multiplayer</button>
+			</div>
+			<div class="text-container" id="footer">
+				Disclaimer: Taboo! is a registered trademark under <a target="_blank" href="http://www.hasbro.com/">Hasbro, Inc</a>. This game is just a proof of concept. If you're interested, you can follow the link below for the source:
+				<br>
+				<a href="#github">GitHub</a>
+			</div>
+		</div>
+	</div>
+</main>
+</body>
+</html>
